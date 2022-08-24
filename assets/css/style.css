@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: grid;
+    place-items: center;
+    height:100vh;
+}
+
+::selection{
+    background-color: #0d3281;
+    color: white;
+}
+
+.main{
+    height: 30rem;
+    width: 18rem;
+    background: #ffffff;
+    border-radius: 0.8rem;
+    padding: 1.2rem;
+    box-shadow: 0px 10px 15px 15px rgba(0,0,0, 10%);
+    display: grid;
+    place-items: center;
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+}
+
+#box{
+    height: 40px;
+    width: 80%;
+    border: none;
+    outline: none;
+    border-radius: 0.5rem;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.result{
+    background-color: #ebebeb;
+    transition: .4s;
+}
+
+.result:focus{
+    background-color: #dfdede;
+    transition: .4s;
+}
+
+input[type="range"]{
+    -webkit-appearance: none;
+    height: 10px;
+    width: 80%;
+    border-radius: 50px;
+    outline: none;
+}
+
+input[type="range"]::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    height: 15px;
+    width: 15px;
+    background: #fff;
+    border-radius: 50%;
+    border: 2px solid #dbdada;
+    cursor: pointer;
+}
+
+.main #red{
+    background: linear-gradient(90deg, #000000 0%, #ff0000 100%);
+}
+
+.main #green{
+    background: linear-gradient(90deg, #000000 0%, #008000 100%);
+}
+
+.main #blue{
+    background: linear-gradient(90deg, #000000 0%, #0000ff 100%);
+}
