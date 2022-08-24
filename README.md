@@ -1,5 +1,6 @@
-# Amp_Guitar-for-Web
-Amplificador de Guitarra feito com a Tríade Web (HTML, CSS e JavaScript).
+# RGB-Colors-Web
+
+Código feito na Tríade Web (HTML, CSS e JavaScript), em que o Usuário pode manipular valores de cores RGB, até escolher a cor que deseja utilizar.
 
 ![Screenshot](screenshot.png)
 
